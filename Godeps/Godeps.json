@@ -1,0 +1,26 @@
+{
+	"ImportPath": "multifort",
+	"GoVersion": "go1.11",
+	"GodepVersion": "v80",
+	"Deps": [
+		{
+			"ImportPath": "github.com/go-sql-driver/mysql",
+			"Comment": "v1.4.0-13-g6be42e0",
+			"Rev": "6be42e0ff99645d7d9626d779001a46e39c5f280"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/gorm",
+			"Comment": "v1.9.2",
+			"Rev": "472c70caa40267cb89fd8facb07fe6454b578626"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/gorm/dialects/mysql",
+			"Comment": "v1.9.2",
+			"Rev": "472c70caa40267cb89fd8facb07fe6454b578626"
+		},
+		{
+			"ImportPath": "github.com/jinzhu/inflection",
+			"Rev": "04140366298a54a039076d798123ffa108fff46c"
+		}
+	]
+}
