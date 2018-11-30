@@ -4,6 +4,7 @@ import (
 	"fmt"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
+	"github.com/spf13/viper"
 )
 
 var (
@@ -13,7 +14,8 @@ var (
 
 func Init(){
 	var err error
-	db, err = gorm.Open("mysql", "root:multifort@/multifort?charset=utf8&parseTime=True&loc=Local")
+
+	db, err = gorm.Open("mysql", viper.GetString("db.default"))
 	defer db.Close()
 
 	if err != nil {

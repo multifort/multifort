@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
+	"github.com/spf13/viper"
 )
 
 func main() {
-	fmt.Println("Hello world")
-
-	//store.Init()
+	fmt.Println(viper.Get("db.default"))
 }
+
