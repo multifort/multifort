@@ -1,3 +1,0 @@
-# TODO replace MySQL SERVER with your own
-[db]
-    default="root:multifort@tcp(127.0.0.1:3306)/multifort?charset=utf8&parseTime=True&loc=Local"

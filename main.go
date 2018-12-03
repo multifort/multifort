@@ -2,11 +2,16 @@ package main
 
 import (
 	"fmt"
-	"github.com/spf13/viper"
-	"multifort/log"
+	multifort "multifort/cmd"
+	"os"
 )
 
 func main() {
-	fmt.Println(viper.Get("db.default"))
-	log.InitLogger()
+	test := multifort.NewRootCmd()
+	if err := test.Execute(); err != nil {
+		fmt.Print("-------------")
+		fmt.Print(err)
+		fmt.Println(err.Error())
+		os.Exit(-1)
+	}
 }

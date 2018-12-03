@@ -69,6 +69,11 @@
 			"Rev": "3536a929edddb9a5b34bd6861dc4a9647cb459fe"
 		},
 		{
+			"ImportPath": "github.com/natefinch/lumberjack",
+			"Comment": "v2.0.0",
+			"Rev": "7d6a1875575e09256dc552b4c0e450dcd02bd10e"
+		},
+		{
 			"ImportPath": "github.com/pelletier/go-toml",
 			"Comment": "v1.2.0-18-g27c6b39",
 			"Rev": "27c6b39a135b7dc87a14afb068809132fb7a9a8f"

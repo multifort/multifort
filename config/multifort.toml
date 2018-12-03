@@ -1,0 +1,16 @@
+[db]
+  # Replace MySQL SERVER with your own
+  #username default root
+  #password default multifort
+  #server default 127.0.0.1
+  #port 3306
+  #database name default multifort
+  default="root:multifort@tcp(127.0.0.1:3306)/multifort?charset=utf8&parseTime=True&loc=Local"
+
+[log]
+  # Define multifort server log file
+  file= "multifort-server.log"
+
+  # Define log level: debug, info, warn, error, fatal
+  level="info"
+
